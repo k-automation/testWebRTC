@@ -1,0 +1,90 @@
+
+.error {
+	color: red;
+}
+
+/*#throttleDiv{
+	position: relative;
+	display: inline-block;
+	width: 79px;
+	height: 480px;
+	background-image: url('throttle-hash-marks.png'),
+		radial-gradient(rgb(136, 185, 204) 5%, white 65%);
+	background-repeat: no-repeat;
+}
+
+#throttleSlider {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	left: 20%;
+	height: 10px;
+	width: 60%;
+	background: #ec0000;
+}*/
+
+#stickDiv{
+	position: relative;
+	display: inline-block;
+	left: 20%;
+	width: 300px;
+	height: 300px;
+	/*border: 1px solid black;*/
+	/*background-image: url('throttle-hash-marks.png'),
+		radial-gradient(rgb(136, 185, 204) 5%, white 65%);
+	background-repeat: no-repeat;*/
+}
+
+#stickArea {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	height: 50px;
+	width: 50px;
+	background-color: #ec0000;
+	
+	transform: translate(-50%,-50%);
+	/*transform: translateX(10%);*/
+	border-radius: 50%;
+	/*display: inline-block;*/
+}
+
+/*#manualButton {
+	position: relative;
+	left: 20%;
+	height: 120px;
+	width: 120px;
+
+}
+#holdButton {
+	position: relative;
+	height: 120px;
+	width: 120px;
+
+}*/
+#buttonArea {
+	position: relative;
+	display: inline-block;
+	left: 20%;
+	top: 50px;
+	height: 700;
+	width: 700;
+
+}
+p {
+  font-size: 30px;
+}
+
+
+#optional {
+	display: none;
+}
+
+
+table {
+	margin: auto;
+	width: 50%;
+}
+
+-webkit-appearance: none;
+

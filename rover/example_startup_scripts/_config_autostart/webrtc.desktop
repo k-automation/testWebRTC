@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Version=1.0.0
+Type=Application
+Name=webrtc
+Comment=Stream video to webpage
+Exec=autostartWebrtc.sh
+StartupNotify=false
+Terminal=false
+Hidden=false
+
